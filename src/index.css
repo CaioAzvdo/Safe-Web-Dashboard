@@ -15,7 +15,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --radius: 0.625rem;
-  --background: oklch(29.738% 0.00582 17.167);
+  --background: oklch(0.89 0 0);
   --foreground: oklch(0.13 0.028 261.692);
   --card:oklch(0.3 0.01 16.65)
   --card-foreground: oklch(0.13 0.028 261.692);
@@ -30,7 +30,7 @@
   --accent: oklch(0.967 0.003 264.542);
   --accent-foreground: oklch(0.21 0.034 264.665);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.928 0.006 264.531);
+  --border:oklch(0.18 0.01 0)
   --input: oklch(0.928 0.006 264.531);
   --ring: oklch(0.707 0.022 261.325);
   --chart-1: oklch(44.259% 0.198 269.394);
@@ -72,7 +72,8 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
+  border: 1px solid #213547;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;

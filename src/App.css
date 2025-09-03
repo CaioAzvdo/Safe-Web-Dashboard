@@ -4,7 +4,16 @@
   padding: 2rem;
   text-align: center;
 }
-
+.header-top {
+  position: fixed;
+  border: 1px solid #213547;
+  color: #0e224e;
+  text-align: start;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
