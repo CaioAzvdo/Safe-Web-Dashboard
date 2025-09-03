@@ -54,7 +54,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartPieLabel() {
+function ChartPieLabel() {
   return (
     <Card className="flex flex-col">
       <CardHeader className="items-center pb-0">
@@ -83,3 +83,4 @@ export function ChartPieLabel() {
     </Card>
   )
 }
+export default ChartPieLabel;
